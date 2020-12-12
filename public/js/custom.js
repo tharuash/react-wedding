@@ -401,5 +401,15 @@ $(function () {
 		interval: 5000
 	});
 
+	$(document).ready(function () {
+		$('.owl-nav button span').remove();
+		$('.owl-nav button').first().append('<i class="fas fa-arrow-left"></i>');
+		$('.owl-nav button').next().append('<i class="fas fa-arrow-right"></i>');
+
+		$('#gallery_slide .owl-nav button span').remove();
+		$('#gallery_slide .owl-nav button').first().append('<i class="fas fa-arrow-left"></i>');
+		
+	});
+
 
 });

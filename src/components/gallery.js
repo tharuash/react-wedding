@@ -4,7 +4,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 function Gallery() {
     return (
-        <div id="gallery" className="Gallery plants" style={{paddingTop: 0}}>
+        <div id="gallery" className="Gallery plants" style={{paddingTop: 0, marginTop: 0}}>
       <div className="container">
          <div className="row">
             <div className="col-md-12">
@@ -19,11 +19,14 @@ function Gallery() {
          <div className="row" id="gallery_slider">
          <OwlCarousel className="owl-carousel owl-theme" items={4}
 			loop={true}
-			autoplay= {false}
+			autoplay= {true}
 			autoplayTimeout= {3000}
 			autoplayHoverPause= {true}
-            nav= {true}
-            >
+         nav= {true}
+         dots={false}
+         navClass={'.gallery_slide_prev', '.gallery_slide_next'}
+         id="gallery_slide"
+         >
 
             <div className="plants-box item">
                <figure><img src="images/img/AdobeStock_236655481.png" alt="img" /></figure>
@@ -70,15 +73,21 @@ function Gallery() {
 
             </div>
 
+            <div className="plants-box item">
+               <figure><img src="images/img/AdobeStock_173519034.png" alt="img" /></figure>
+               <div className="plants-box-text ">
+                  <h3 style={{color: 'white'}}>Biggest Dress <br/> Store</h3>
+
+                  <a className="btn btn-primary" href="#" role="button">More Details</a>
+
+
+               </div>
+
+            </div>
+
 
             </OwlCarousel>
          </div>
-         <a className="carousel-control-prev" href="#gallery_slide" role="button" data-slide="prev" id="image_slide_prev"
-            style={{top: 1860}}>
-            <i className='fa fa-angle-left'></i></a>
-         <a className="carousel-control-next" href="#gallery-slide" role="button" data-slide="next" id="image_slide_next"
-            style={{top: 1860}}>
-            <i className='fa fa-angle-right'></i></a>
 
       </div>
    </div>

@@ -1,6 +1,6 @@
 function WhyChoose(){
     return (
-        <div id="gallery" className="Gallery plants" style={{paddingTop: 0, marginBottom: 0, paddingBottom: 0}}>
+        <div id="gallery" className="Gallery plants" style={{paddingTop: 0, marginBottom: 0, paddingBottom: 0, marginTop: 0}}>
       <div className="container">
          <div className="row">
             <div className="col-md-12">

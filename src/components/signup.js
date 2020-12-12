@@ -63,6 +63,7 @@ function SignUp(){
                                                    <select name="country">
                                                       <option className="selected">USA</option>
                                                    </select>
+
                                                 </label>
                                        </div>
                                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">

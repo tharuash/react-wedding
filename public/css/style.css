@@ -2311,8 +2311,8 @@ ul.location_icon span {
      bottom: 10px;
 }
 
-#image_slide_prev ,
-#image_slide_next {
+.image_slide_prev ,
+.image_slide_next {
      width: 55px;
      height: 55px;
      background: #cecece;
@@ -2322,22 +2322,22 @@ ul.location_icon span {
      /*border-radius: 30px;*/
 }
 
-#image_slide_prev:hover,
-#image_slide_next:hover,
-#image_slide_prev:focus,
-#image_slide_next:focus {
+.image_slide_prev:hover,
+.image_slide_next:hover,
+.image_slide_prev:focus,
+.image_slide_next:focus {
      background: #707070;
      /*color: #fff;*/
 }
 
-#image_slide_prev {
+.image_slide_prev {
      /*position: relative;;*/
      right: 175px;
      bottom: 10px;
      top: 1150px;
 }
 
-#image_slide_next {
+.image_slide_next {
      /*position: absolute;*/
      right: 113px;
      top: 1150px;
@@ -2516,7 +2516,7 @@ ul.location_icon span {
 	/*background: rgba(5, 42, 64, 0.9);*/
 }
 .modal-block {
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
 	/*max-width: 792px;*/
 	left: 0;
@@ -2591,3 +2591,100 @@ margin: auto;}
 	border-radius: 3px;
 	position: relative; 
 }
+
+.gallery_slide_prev ,
+.gallery_slide_next {
+     width: 55px;
+     height: 55px;
+     background: #cecece;
+     opacity: 1;
+     font-size: 30px;
+     color: #fff;
+     /*border-radius: 30px;*/
+}
+
+.gallery_slide_prev:hover,
+.gallery_slide_next:hover,
+.gallery_slide_prev:focus,
+.gallery_slide_next:focus {
+     background: #707070;
+     /*color: #fff;*/
+}
+
+.gallery_slide_prev {
+     /*position: relative;;*/
+     right: 175px;
+     bottom: 10px;
+     top: 1150px;
+}
+
+.gallery_slide_next {
+     /*position: absolute;*/
+     right: 113px;
+     top: 1150px;
+     bottom: 10px;
+}
+
+
+
+.owl-nav button {
+     width: 55px;
+     height: 55px;
+     background: #cecece;
+     opacity: 1;
+     font-size: 30px;
+     color: #fff;
+     margin-right: 10px;
+     /*border-radius: 30px;*/
+}
+
+
+.owl-nav button:hover,
+.owl-nav button:focus{
+     background: #707070;
+     /*color: #fff;*/
+}
+
+.owl-nav .owl-prev{
+     /*position: relative;;*/
+     right: 175px;
+     bottom: 10px;
+     top: 1150px;
+}
+
+.owl-nav .owl-next {
+     /*position: absolute;*/
+     right: 113px;
+     top: 1150px;
+     bottom: 10px;
+}
+
+.owl-nav{
+     text-align: right !important;
+     margin-top: 0px !important;
+}
+
+.material-icons {
+     font-family: 'Material Icons';
+     font-weight: normal;
+     font-style: normal;
+     font-size: 24px;  /* Preferred icon size */
+     display: inline-block;
+     line-height: 1;
+     text-transform: none;
+     letter-spacing: normal;
+     word-wrap: normal;
+     white-space: nowrap;
+     direction: ltr;
+   
+     /* Support for all WebKit browsers. */
+     -webkit-font-smoothing: antialiased;
+     /* Support for Safari and Chrome. */
+     text-rendering: optimizeLegibility;
+   
+     /* Support for Firefox. */
+     -moz-osx-font-smoothing: grayscale;
+   
+     /* Support for IE. */
+     font-feature-settings: 'liga';
+   }
