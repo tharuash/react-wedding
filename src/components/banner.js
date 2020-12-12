@@ -1,26 +1,26 @@
 function Banner() {
     return (
         <section>
-        <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
-           <ol class="carousel-indicators">
-              <li data-target="#main_slider" data-slide-to="0" class="active"></li>
+        <div id="main_slider" className="carousel slide banner-main" data-ride="carousel">
+           <ol className="carousel-indicators">
+              <li data-target="#main_slider" data-slide-to="0" className="active"></li>
               <li data-target="#main_slider" data-slide-to="1"></li>
               <li data-target="#main_slider" data-slide-to="2"></li>
            </ol>
-           <div class="carousel-inner">
-              <div class="carousel-item active">
-                 <div class="container">
-                    <div class="row marginii">
-                       <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                          <div class="carousel-caption ">
+           <div className="carousel-inner">
+              <div className="carousel-item active">
+                 <div className="container">
+                    <div className="row marginii">
+                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                          <div className="carousel-caption ">
                              <h1 style={{color: 'white'}}>Let's find <br/> Your wedding team</h1>
-                             <div class="wrap">
-                                <div class="search">
-                                   <input type="text" class="searchTerm form-control"
+                             <div className="wrap">
+                                <div className="search">
+                                   <input type="text" className="searchTerm form-control"
                                       placeholder="Search hotels weddings photographers"/>
-                                   <input type="text" class="searchTermMiddle form-control" placeholder="City/Country"/>
-                                   <button type="submit" class="searchButton">
-                                      <i class="fa fa-search"></i>
+                                   <input type="text" className="searchTermMiddle form-control" placeholder="City/Country"/>
+                                   <button type="submit" className="searchButton">
+                                      <i className="fa fa-search"></i>
                                    </button>
                                 </div>
                              </div>
@@ -34,10 +34,10 @@ function Banner() {
               </div>
   
            </div>
-           <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-              <i class='fa fa-angle-left'></i></a>
-           <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-              <i class='fa fa-angle-right'></i>
+           <a className="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+              <i className='fa fa-angle-left'></i></a>
+           <a className="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+              <i className='fa fa-angle-right'></i>
            </a>
         </div>
      </section>

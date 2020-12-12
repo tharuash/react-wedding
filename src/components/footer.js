@@ -2,81 +2,81 @@ function Footer() {
     return(
         <footer>
       <div style={{padding: 20, marginTop: '5%'}}>
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+         <div className="container">
+            <div className="row">
+               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 
-                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo"> <a href="index.html"><img src="images/img/logo1 copy.png" alt="#"/></a>
+                  <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col logo_section">
+                     <div className="full">
+                        <div className="center-desk">
+                           <div className="logo"> <a href="index.html"><img src="images/img/logo1 copy.png" alt="#"/></a>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                     <p class="footer-text">It was popularised in the 1960s with the release of Letraset sheets
+                  <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                     <p className="footer-text">It was popularised in the 1960s with the release of Letraset sheets
                         containing Lorem Ipsum
                         passages, and more recently with desktop publishing software</p>
                   </div>
-                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" style={{paddingTop: 20}}>
+                  <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12" style={{paddingTop: 20}}>
                      <div>
-                        <i class="fab fa-facebook-square" style={{marginRight: 20}}></i>
-                        <i class="fab fa-twitter" style={{marginRight: 20}}></i>
-                        <i class="fab fa-linkedin-in" style={{marginRight: 20}}></i>
-                        <i class="fab fa-instagram" style={{marginRight: 20}}></i>
-                        <i class="fab fa-youtube"></i>
+                        <i className="fab fa-facebook-square" style={{marginRight: 20}}></i>
+                        <i className="fab fa-twitter" style={{marginRight: 20}}></i>
+                        <i className="fab fa-linkedin-in" style={{marginRight: 20}}></i>
+                        <i className="fab fa-instagram" style={{marginRight: 20}}></i>
+                        <i className="fab fa-youtube"></i>
 
                      </div>
                   </div>
 
                </div>
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="row" style={{paddingTop: 50}}>
-                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                        <h5 class="footer-heading">Quick Links</h5>
+               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div className="row" style={{paddingTop: 50}}>
+                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <h5 className="footer-heading">Quick Links</h5>
                         <div>
-                           <a href="#" class="footer-text">Invitation Cards</a>
+                           <a href="#" className="footer-text">Invitation Cards</a>
                         </div>
                         <div>
-                           <a href="#" class="footer-text">Cake Boxes</a>
+                           <a href="#" className="footer-text">Cake Boxes</a>
                         </div>
                         <div>
-                           <a href="#" class="footer-text">Thanking Cards</a>
+                           <a href="#" className="footer-text">Thanking Cards</a>
                         </div>
                         <div>
-                           <a href="#" class="footer-text">Hotels and Resorts</a>
+                           <a href="#" className="footer-text">Hotels and Resorts</a>
                         </div>
                         <div>
-                           <a href="#" class="footer-text">Contact Us</a>
+                           <a href="#" className="footer-text">Contact Us</a>
                         </div>
                      </div>
-                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                        <h5 class="footer-heading">Consultation</h5>
+                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <h5 className="footer-heading">Consultation</h5>
                         <div>
-                           <a href="#" class="footer-text">Photographers</a>
+                           <a href="#" className="footer-text">Photographers</a>
                         </div>
                         <div>
-                           <a href="#" class="footer-text">Cinematographers</a>
+                           <a href="#" className="footer-text">Cinematographers</a>
                         </div>
                         <div>
-                           <a href="#" class="footer-text">Dresses</a>
+                           <a href="#" className="footer-text">Dresses</a>
                         </div>
                         <div>
-                           <a href="#" class="footer-text">Music &amp; DJ</a>
+                           <a href="#" className="footer-text">Music &amp; DJ</a>
                         </div>
                         <div>
-                           <a href="#" class="footer-text">Wedding Planning</a>
+                           <a href="#" className="footer-text">Wedding Planning</a>
                         </div>
                      </div>
 
-                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                        <h5 class="footer-heading">Contact</h5>
+                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <h5 className="footer-heading">Contact</h5>
                         <div>
-                           <p class="footer-text">store@wedshop.com</p>
+                           <p className="footer-text">store@wedshop.com</p>
                         </div>
                         <div>
-                           <p class="footer-text">Hotline: +1 131 138 138</p>
+                           <p className="footer-text">Hotline: +1 131 138 138</p>
                         </div>
 
                      </div>
