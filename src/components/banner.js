@@ -9,35 +9,41 @@ function Banner() {
            </ol>
            <div className="carousel-inner">
               <div className="carousel-item active">
-                 <div className="container">
-                    <div className="row marginii">
-                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                          <div className="carousel-caption ">
-                             <h1 style={{color: 'white'}}>Let's find <br/> Your wedding team</h1>
-                             <div className="wrap">
-                                <div className="search">
-                                   <input type="text" className="searchTerm form-control"
-                                      placeholder="Search hotels weddings photographers"/>
-                                   <input type="text" className="searchTermMiddle form-control" placeholder="City/Country"/>
-                                   <button type="submit" className="searchButton">
-                                      <i className="fa fa-search"></i>
-                                   </button>
-                                </div>
-                             </div>
-  
-                          </div>
-                       </div>
-  
-                    </div>
-                 </div>
-  
+                  <img src="images/img/beautiful-beauty-casual-2830170.png" width="100%"/>
               </div>
-  
+
+              <div className="carousel-item">
+              <img src="images/img/beautiful-beauty-casual-2830170.png" width="100%"/>
+              </div>
+
+              <div className="container">
+                  <div className="row marginii">
+                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div className="carousel-caption ">
+                           <h1 style={{color: 'white'}}>Let's find <br/> Your wedding team</h1>
+                           <div className="wrap">
+                              <div className="search">
+                                 <input type="text" className="searchTerm form-control"
+                                    placeholder="Search hotels weddings photographers"/>
+                                 <input type="text" className="searchTermMiddle form-control" placeholder="City/Country"/>
+                                 <button type="submit" className="searchButton">
+                                    <i className="fa fa-search"></i>
+                                 </button>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
            </div>
+
+           
            <a className="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-              <i className='fa fa-angle-left'></i></a>
+              <i className='fas fa-arrow-left'></i></a>
            <a className="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-              <i className='fa fa-angle-right'></i>
+              <i className='fas fa-arrow-right'></i>
            </a>
         </div>
      </section>
